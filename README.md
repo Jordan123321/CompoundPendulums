@@ -1,2 +1,4 @@
 # CompoundPendulums
 This is the first `big' programming project that I worked on. I created an algorithm in Maple which simulated a pendulum upon a pendulum upon a pendulum, up to 3D. Results were presented at the TMT conference in 2014
+This was a project working on examining symplectic integrators. These are integrations schemes that preserve quantities within a system, in this case, energy, meaning that unlike Newton Raphson type techniques, which tend to lose stability and/or accuracy when simulating pendulum type systems, this is corrected in the Newmark Beta method.
+Though the coding is somewhat clunky and its written in Maple (who even uses that?), this is an entirely self driven project that was done simply for the joy of finding something new, and it remains one of my more proud pieces of work.
